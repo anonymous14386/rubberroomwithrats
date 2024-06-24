@@ -1,0 +1,7 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    background: url('images/block.png');
+    background-size: 200px;
+    background-repeat: repeat-x repeat-y;
+}
