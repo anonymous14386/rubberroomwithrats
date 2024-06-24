@@ -4,6 +4,8 @@ body {
     background: url('images/block.png');
     background-size: 200px;
     background-repeat: repeat-x repeat-y;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .topnav {
