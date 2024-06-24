@@ -4,13 +4,21 @@ body {
     background: url('images/block.png');
     background-size: 200px;
     background-repeat: repeat-x repeat-y;
-    margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
+}
+
+@media (max-width) {
+    body{
+        background: url('images/block.png');
+        background-size: 100px;
+        background-repeat: repeat-x repeat-y;
+    }
+    
 }
 
 .topnav {
     overflow: hidden;
     background-color: #333;
+    padding: 5px 5px;
 }
 
 .topnav a {
